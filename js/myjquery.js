@@ -84,7 +84,7 @@ function jQ(params) {
             }
         } else {
             for (let i = 0; i < this.element.length; i++) {
-                this.element[i].style.width = this.element[0].style.width
+                return this.element[0].style.width
             }
         }
         return this
@@ -100,7 +100,7 @@ function jQ(params) {
             }
         } else {
             for (let i = 0; i < this.element.length; i++) {
-                this.element[i].style.height = this.element[0].style.height
+                return this.element[0].style.height
             }
         }
         return this
